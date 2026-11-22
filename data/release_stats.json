@@ -1,0 +1,384 @@
+{
+ "stack_exchange": {
+  "seams": {
+   "paper_name": "SEAMS",
+   "rows": 5000,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 0
+    }
+   }
+  },
+  "seams_1": {
+   "paper_name": "SEAMS-1",
+   "rows": 4013,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 799,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 813,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 777,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 867,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 757,
+     "withheld": 0
+    }
+   }
+  },
+  "cs": {
+   "paper_name": "CS",
+   "rows": 5000,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 0
+    }
+   }
+  },
+  "esa": {
+   "paper_name": "ESA",
+   "rows": 5000,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 0
+    }
+   }
+  },
+  "dp_prompt": {
+   "paper_name": "DP-Prompt",
+   "rows": 5000,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 0
+    }
+   }
+  },
+  "zs_cs": {
+   "paper_name": "ZS-CS",
+   "rows": 5000,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 0
+    }
+   }
+  },
+  "zs_c": {
+   "paper_name": "ZS-C",
+   "rows": 5000,
+   "withheld": 0,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 0
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 0
+    }
+   }
+  }
+ },
+ "stanford_mooc": {
+  "seams": {
+   "paper_name": "SEAMS",
+   "rows": 5000,
+   "withheld": 1460,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 298
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 298
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 278
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 282
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 304
+    }
+   }
+  },
+  "seams_1": {
+   "paper_name": "SEAMS-1",
+   "rows": 5000,
+   "withheld": 1523,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 306
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 291
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 310
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 305
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 311
+    }
+   }
+  },
+  "cs": {
+   "paper_name": "CS",
+   "rows": 5000,
+   "withheld": 878,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 211
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 151
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 159
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 159
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 198
+    }
+   }
+  },
+  "esa": {
+   "paper_name": "ESA",
+   "rows": 5000,
+   "withheld": 1331,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 268
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 262
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 269
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 268
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 264
+    }
+   }
+  },
+  "dp_prompt": {
+   "paper_name": "DP-Prompt",
+   "rows": 5000,
+   "withheld": 39,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 10
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 6
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 9
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 6
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 8
+    }
+   }
+  },
+  "zs_cs": {
+   "paper_name": "ZS-CS",
+   "rows": 5000,
+   "withheld": 1261,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 247
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 249
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 255
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 263
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 247
+    }
+   }
+  },
+  "zs_c": {
+   "paper_name": "ZS-C",
+   "rows": 5000,
+   "withheld": 51,
+   "per_seed": {
+    "0": {
+     "rows": 1000,
+     "withheld": 9
+    },
+    "7": {
+     "rows": 1000,
+     "withheld": 8
+    },
+    "42": {
+     "rows": 1000,
+     "withheld": 10
+    },
+    "99": {
+     "rows": 1000,
+     "withheld": 13
+    },
+    "123": {
+     "rows": 1000,
+     "withheld": 11
+    }
+   }
+  }
+ }
+}

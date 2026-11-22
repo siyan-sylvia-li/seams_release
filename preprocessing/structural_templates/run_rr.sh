@@ -1,0 +1,2 @@
+python rewrite_posts.py --student-data ../../pipeline/final_data/stack_exchange_v1.csv --output ../../pipeline/final_data/stack_exchange_v2.csv
+python rewrite_posts.py --student-data ../../pipeline/final_data/stanford_mooc_v1.csv --output ../../pipeline/final_data/stanford_mooc_v2.csv

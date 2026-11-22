@@ -1,0 +1,32 @@
+{
+  "predict.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "Task:\nSummarize a discussion-forum post into minimal bullet points that capture exactly what the poster is asking, doing, or claiming. Strip stylistic phrasing (hedging, filler, greetings, personal voice) while preserving core content and specifics. Preserve code snippets, formulas, and redaction tokens exactly.\n\nOutput format:\n- Output only bullets (each line starts with \"- \"). No headings, labels, or reasoning.\n- 1–4 bullets total; prefer 1–2 when possible.\n- Keep it terse: each bullet ≤ 12 words; total length ≤ 30% of the original text.\n\nStyle and content rules:\n- Paraphrase aggressively into plain, neutral, telegraphic language. Do not mimic the poster’s style.\n- Remove: greetings, sign-offs, “I’m happy…”, “hope…”, thanks, filler, and other personal voice.\n- Remove encoding/formatting artifacts (e.g., _x0007_), extra whitespace, and fluff.\n- Preserve verbatim: code blocks/snippets, inline code, formulas/equations, and redaction tokens (e.g., <anon_screen_name_redacted>), including their delimiters.\n- Include concrete specifics needed to reconstruct the intent:\n  - Proper names (people), institutions, locations, key terms, and the main ask/claim.\n  - Make requests explicit (what is wanted/next step).\n  - Attribute claims when needed for clarity (e.g., “Instructor: [claim]”).\n- Avoid redundancy; merge overlapping facts; do not restate the same detail twice.\n- Do not add unstated facts or speculate beyond obvious implications.\n- Prefer nouns/verbs over adjectives/adverbs; avoid subjective qualifiers.\n\nContent guidance by post type:\n- Introduction: include role/title, institution, location, and goal/interest (e.g., what they want to learn/do). Omit pleasantries.\n- Request/question: state the exact request/problem sought and any key constraints/context.\n- Commentary/feedback: state the subject and the concrete point or follow-up ask.\n- Assertion/advice: state the core claim succinctly.\n\nQuality targets:\n- Compression target ≤ 0.3 of original length.\n- Low style similarity to original wording (avoid copying phrases, except for code/formulas/redactions).",
+      "fields": [
+        {
+          "prefix": "Post:",
+          "description": "The original discussion forum post."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Bullets:",
+          "description": "Bullet points capturing the post's content in neutral language."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

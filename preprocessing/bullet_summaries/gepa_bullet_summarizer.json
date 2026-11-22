@@ -1,0 +1,32 @@
+{
+  "predict.predict": {
+    "traces": [],
+    "train": [],
+    "demos": [],
+    "signature": {
+      "instructions": "You are given a single discussion forum post. Produce a concise bullet list summarizing exactly what the poster is asking or doing, stripped of style and filler, keeping only core content.\n\nOutput format:\n- Only a flat bullet list using \"- \" (hyphen + space) bullets.\n- No headings, no pre/post text, no explanations, no blank lines.\n- 3–8 bullets total; prefer the low end of the range if possible without losing essentials.\n- Each bullet ≤ 15 words; aim for 5–10 words.\n- One line per bullet; no wrapping or sub-bullets.\n\nContent selection (in priority order):\n1) Main goal/question(s) being asked.\n2) Key setup/assumptions/constraints (datasets, models, libraries, graphs, node sets, variables).\n3) Proposed approach or actions taken (algorithms, steps, methods tried).\n4) Observed results/outputs/errors (include exact error messages).\n5) Experimental details or ranges (e.g., n=5..10).\n6) Environment/configuration only if directly relevant (e.g., data size, 64bit Python, RAM, libraries).\n\nPreservation rules:\n- Copy technical identifiers exactly: code identifiers, function/class names, file names, API calls, CLI commands, error messages.\n- Preserve mathematical notation and LaTeX exactly: $A=\\{a_1,\\ldots,a_n\\}$, $\\min(v_i,w_j)$.\n- Preserve specialized terms and proper nouns exactly (e.g., \"Amazon Redshift\", \"psycopg2\", \"SQLAlchemy\", \"pandas.read_sql_query\", \"Keras\", \"TensorFlow\", \"DNF\", \"prenex normal form\", \"second-order\", \"Stephanopoulos-McGhee\", \"efficiency gap\").\n- If including a code or error snippet, reproduce it verbatim inline within a bullet; do not use code fences or backticks.\n- Prefer short, central snippets (the exact line/method/error); omit long blocks unless essential to the point.\n- Do not alter spacing, case, punctuation, or symbols in preserved snippets or formulas.\n\nStyle constraints:\n- Paraphrase aggressively into plain, neutral language; remove hedging, filler, personal voice, and rhetorical phrasing.\n- Use compact noun phrases where possible; avoid \"I\", \"we\", \"wondering\", \"can't figure out\", \"any ideas\", \"please\", \"thanks\".\n- Neutral, declarative phrasing; no opinions, no speculation, no causes, no solutions or guidance beyond what the poster already did.\n- Do not restate obvious background or definitions unless they are constraints for the task.\n- If multiple distinct questions exist, create a separate bullet for each.\n\nMethod (apply systematically):\n1) Identify the core ask(s); condense into one bullet per distinct ask.\n2) Extract key context: datasets, variables, models, libraries, graphs/sets, constraints.\n3) Note any methods/algorithms/steps already attempted.\n4) Capture exact outputs/errors and important quantitative details (ranges, thresholds).\n5) Add only environment/configuration details that materially constrain the problem.\n6) Remove redundancy; merge overlapping points; keep only unique, essential facts.\n\nCompression guidance:\n- Prefer minimal bullets that fully cover unique points.\n- Drop meta-statements (e.g., awareness of differences, generic motivation).\n- Replace verbose phrases with concise terms (e.g., \"threshold\" instead of \"what threshold should be used\").\n\nQuality checklist before submitting:\n- Starts with \"- \" on every line; 3–8 bullets; no extra lines.\n- Each bullet ≤ 15 words; terse, information-dense; avoid repeated phrasing like \"seek/need guidance\".\n- No added analysis, explanations, solutions, or opinions.\n- All preserved code/identifiers/errors/formulas are exact and inline.\n- Order follows the priority list: ask → setup → attempts → results/errors → experiments → environment.",
+      "fields": [
+        {
+          "prefix": "Post:",
+          "description": "The original discussion forum post."
+        },
+        {
+          "prefix": "Reasoning: Let's think step by step in order to",
+          "description": "${reasoning}"
+        },
+        {
+          "prefix": "Bullets:",
+          "description": "Bullet points capturing the post's content in neutral language."
+        }
+      ]
+    },
+    "lm": null
+  },
+  "metadata": {
+    "dependency_versions": {
+      "python": "3.10",
+      "dspy": "3.1.2",
+      "cloudpickle": "3.0"
+    }
+  }
+}

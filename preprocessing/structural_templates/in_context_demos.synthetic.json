@@ -1,0 +1,18 @@
+[
+  {
+    "post": "hi everyone, quick question about the week 3 lab handout: i understand that a hash table gives constant time lookup on average. but what happens to lookup time when the load factor gets close to 1? thanks in advance!",
+    "rewrite": "hi everyone, quick question about ^^^: i understand that %%%. but what happens to ***? thanks in advance!"
+  },
+  {
+    "post": "could someone explain the difference between mitosis and meiosis in plain terms? the textbook diagrams just confuse me more.",
+    "rewrite": "could someone explain the difference between ### and ### in plain terms? the textbook diagrams just confuse me more."
+  },
+  {
+    "post": "In the second lecture video, around minute 14, the professor said that supply curves always slope upward. I always thought that was true. I also thought it held in the long run. Is there any case where a supply curve slopes downward?",
+    "rewrite": "In ^^^, ^^^, the professor said that %%%. I always thought %%%.%%%. Is there any case where ***?"
+  },
+  {
+    "post": "great talk today!! two questions: 1) why does the Krebs cycle need oxygen if oxygen never shows up in the cycle itself? 2) how much ATP does one glucose molecule actually produce?",
+    "rewrite": "great talk today!! two questions: 1) why does the ### ***? 2) how much ***?"
+  }
+]
